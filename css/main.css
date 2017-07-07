@@ -1,0 +1,163 @@
+@font-face {
+    font-family: din;
+    src: url('../fonts/din-regular.ttf');
+}
+
+@font-face {
+    font-family: din-med;
+    src: url('../fonts/DINMittelschriftStd.otf');
+}
+
+@font-face {
+    font-family: din-bold;
+    src: url('../fonts/din-bold.ttf');
+}
+
+@font-face {
+    font-family: neosans;
+    src: url('../fonts/neosans-regular.otf');
+}
+
+@font-face {
+    font-family: neosans-medium;
+    src: url('../fonts/neosans-medium.otf');
+}
+
+@font-face {
+    font-family: NeoSans-Bold;
+    src: url('../fonts/NeoSans-Bold.otf');
+}
+ 
+
+@font-face {
+    font-family: NeoSans-Light;
+    src: url('../fonts/NeoSans-Light.otf');
+} 
+
+html, body{
+	margin:0;
+	font-size: 100%; 
+	background: #fff;
+    font-family: din;
+}
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 600;
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+
+/*banner*/
+.banner{
+    background: url(../images/bg-index.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.agileinfo-dot{
+    background: url(../images/overlay.png)repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+    padding: 1em 0;
+}
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/*-- banner --*/
+
+
+h3.agileits-title ,h2.agileits-title {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    color: #333;
+    text-align: center;
+}
+
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+} 
+
+/*-- services --*/  
+.services {
+    background: url(../images/bg-index.jpg)no-repeat 0px 0px fixed;
+    background-size: cover;
+    padding: 5em 0; 
+}
+h3.agileits-title.w3title2,h2.agileits-title.w3title2 {
+    color: #fff;
+}
+.services-grids,.team-grids,.contact-grids{ 
+    text-align: center;  
+    margin-top: 4em; 
+}  
+.services-grids i.fa {
+    font-size: 2.5em;
+    color: #f58220;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all; 
+    transition:.5s all;
+}
+.services-grids h4 {
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0.8em 0 .5em;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+.services p {
+    color: #fff;
+    letter-spacing: 1px;
+}
+.services-grids:hover i.fa {
+    color: #f37021;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.services-grids:hover h4 {
+    color: #f58220;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}  
+/*-- //services --*/
